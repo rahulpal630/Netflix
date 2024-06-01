@@ -1,0 +1,189 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+}
+
+.main {
+  background: url(bg.jpg);
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+
+.main .box {
+  height: 70vh;
+  position: absolute;
+  width: 100%;
+  opacity: 0.44;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  max-width: 90vw;
+  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2%;
+}
+
+nav img {
+  width: 114px;
+  position: absolute;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  width: 70px;
+  z-index: 10;
+}
+
+.english {
+  border: 1px solid #6C6A6A;
+  background-color: transparent;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero> :first-child {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+span {
+  text-align: center;
+  padding: 5px;
+}
+
+.hero .hero-2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+button {
+  background-color: red;
+  border-radius: 1px;
+  color: #FFFFFF;
+  border: none;
+  padding: 2px;
+}
+
+.main input {
+  background-color: hsla(0, 91%, 5%, 0.65);
+  height: 20px;
+  border: none;
+  color: #FFFFFF;
+  padding: 3px;
+}
+
+.first {
+  display: flex;
+  max-width: 80vw;
+  color: #FFFFFF;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  font-size: 12px;
+}
+
+.first img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+
+.video_div video {
+  position: absolute;
+  width: 26vw;
+  right: 13vw;
+  top: 71.5vh;
+}
+
+.para {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.video_div2 video {
+  position: absolute;
+  width: 19vw;
+  right: 17vw;
+  top: 92.99vh;
+}
+
+.faq h2 {
+  text-align: center;
+}
+
+.faq {
+  background: black;
+  color: #FFFFFF;
+  padding: 34px;
+}
+
+.faqbox {
+  display: flex;
+  background-color: #424247;
+  padding: 24px;
+  justify-content: space-between;
+  margin: 34px auto;
+  max-width: 70vw;
+  transition: all 0.3s ease-in-out;
+}
+
+.faqbox:hover {
+  background: #7E7E81;
+}
+
+.join {
+  max-width: 70vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  font-size: bolder;
+}
+
+footer {
+  color: #FFFFFF;
+  max-width: 75vw;
+  margin: auto;
+}
+
+footer .q {
+  padding: 34px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: #FFFFFF;
+
+}
+
+.footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer_items {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
